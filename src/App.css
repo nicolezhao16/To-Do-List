@@ -1,5 +1,26 @@
 .App {
   text-align: center;
+  display: flex;
+  height: 90%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+body,
+html,
+#root {
+  height: 100%;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+li {
+  text-align: intiial;
 }
 
 .App-logo {
@@ -36,3 +57,4 @@
     transform: rotate(360deg);
   }
 }
+
