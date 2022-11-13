@@ -28,7 +28,7 @@ function Todo({ todo, toggleComplete, removeTodo }){
             >
                 {todo.task}
                 </Typography>
-            <IconButton color = "secondary" variant = "contained" onClick = {handleRemoveClick}><DeleteIcon /></IconButton>    
+            <IconButton color = "secondary" onClick = {handleRemoveClick}><DeleteIcon /></IconButton>    
         </ListItem>
     );
 }
